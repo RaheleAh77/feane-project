@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feane</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/image/feane/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="assets/css/all.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="top-menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg text-center" style="background-color: transparent;">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Feane</a>
+                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="material-symbols-outlined text-white" style="font-size: 40px;">
+                                menu
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="fs-6 text-white nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="fs-6 text-white nav-link" href="#">menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="fs-6 text-white nav-link">about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="fs-6 text-white nav-link">booktable</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-center align-items-center gap-3">
+                                <a href="#"><span class="text-white material-symbols-outlined">
+                                        person
+                                    </span></a>
+                                <a href="#"><span class="text-white material-symbols-outlined">
+                                        shopping_cart
+                                    </span></a>
+                                <a href="#"><span class="text-white material-symbols-outlined">
+                                        search
+                                    </span></a>
+                                <button class="btn order-btn rounded-pill px-4 fw-bold">Order Online</button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <section class="text-slide">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            class="rounded-circle" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            class="rounded-circle" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h1 class="carousel-title text-white col-7 col-sm-12">Fast Food Restaurant</h1>
+                            <p class="carousel-text text-white col-md-7">Doloremque, itaque aperiam facilis rerum,
+                                commodi, temporibus
+                                sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque,
+                                labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                            </p>
+                            <button class="btn btn-carousel rounded-pill px-5 py-2 fw-bold">Order Now</button>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="carousel-title text-white col-7 col-sm-12">Fast Food Restaurant</h1>
+                            <p class="carousel-text text-white col-md-7">Doloremque, itaque aperiam facilis rerum,
+                                commodi, temporibus
+                                sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque,
+                                labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                            </p>
+                            <button class="btn btn-carousel rounded-pill px-5 py-2 fw-bold">Order Now</button>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="carousel-title text-white col-7 col-sm-12">Fast Food Restaurant</h1>
+                            <p class="carousel-text text-white col-md-7">Doloremque, itaque aperiam facilis rerum,
+                                commodi, temporibus
+                                sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque,
+                                labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                            </p>
+                            <button class="btn btn-carousel rounded-pill px-5 py-2 fw-bold">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main py-5 mt-5">
+        <section class="flex-card">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-3 text-bg-dark border-0">
+                            <div class="row g-0 p-3 text-center text-sm-start">
+                                <div class="col-sm-4 overflow-hidden wrapper-img">
+                                    <img src="assets/image/feane/o1.jpg" class="rounded-circle img-fluid w-100 h-100"
+                                        alt="...">
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3">Tasty Thursday</h5>
+                                        <p class="card-text"><span class="fs-1">20%</span> off</p>
+                                        <button class="btn px-5 py-2 order-btn rounded-pill px-4 fw-bold">Order Now
+                                            <span class="align-middle text-white material-symbols-outlined">
+                                                shopping_cart
+                                            </span></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-3 text-bg-dark border-0">
+                            <div class="row g-0 p-3 text-center text-sm-start">
+                                <div class="col-sm-4 overflow-hidden wrapper-img">
+                                    <img src="assets/image/feane/o2.jpg" class="rounded-circle img-fluid w-100 h-100"
+                                        alt="...">
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3">Pizza Days</h5>
+                                        <p class="card-text"><span class="fs-1">15%</span> off</p>
+                                        <button class="btn px-5 py-2 order-btn rounded-pill px-4 fw-bold">Order Now
+                                            <span class="align-middle text-white material-symbols-outlined">
+                                                shopping_cart
+                                            </span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feane-menu">
+            <div class="container">
+                <h2 class="feane-menu-title text-center fs-1 mt-5 pt-4">Our Menu</h2>
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link  text-dark active" aria-current="page" href="#" data-filter="all">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#" data-filter="burger">Burger</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#" data-filter="pizza">Pizza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" data-filter="pasta" href="#">Pasta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" data-filter="fries" href="#">Fries</a>
+                    </li>
+                </ul>
+                <div class="row g-3 my-5">
+                    <div class="col-md-6 col-lg-4 filter-card pizza">
+                        <div class="card text-bg-dark rounded-4 border-0 menu-card">
+                            <div class="w-100 bg-body-secondary py-5 rounded-top-3 rounded-bottom-5"
+                                style="border-bottom-right-radius: 0px!important;">
+                                <img src="assets/image/feane/f1.png" class="img-fluid col-5 d-block mx-auto" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">delicious pizza</h5>
+                                <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                    velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>$20</span>
+                                    <button
+                                        class="btn btn-carousel rounded-circle  fw-bold d-flex justify-content-center align-items-center"
+                                        style="width: 40px; height: 40px; border-radius: 50%;">
+                                        <span class="align-middle text-white material-symbols-outlined">
+                                            shopping_cart
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filter-card burger">
+                        <div class="card text-bg-dark rounded-4 border-0 menu-card">
+                            <div class="w-100 bg-body-secondary py-5 rounded-top-3 rounded-bottom-5 h-100"
+                                style="border-bottom-right-radius: 0px!important;">
+                                <img src="assets/image/feane/f2.png" class="img-fluid col-5 d-block mx-auto h-100"
+                                    alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">delicious burger</h5>
+                                <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                    velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>$20</span>
+                                    <button
+                                        class="btn btn-carousel rounded-circle  fw-bold d-flex justify-content-center align-items-center"
+                                        style="width: 40px; height: 40px; border-radius: 50%;">
+                                        <span class="align-middle text-white material-symbols-outlined">
+                                            shopping_cart
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filter-card pizza">
+                        <div class="card text-bg-dark rounded-4 border-0 menu-card">
+                            <div class="w-100 bg-body-secondary py-5  rounded-top-3 rounded-bottom-5 h-100"
+                                style="border-bottom-right-radius: 0px!important;">
+                                <img src="assets/image/feane/f3.png" class="img-fluid col-5 d-block mx-auto h-100"
+                                    alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">delicious pizza</h5>
+                                <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                    velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>$20</span>
+                                    <button
+                                        class="btn btn-carousel rounded-circle  fw-bold d-flex justify-content-center align-items-center"
+                                        style="width: 40px; height: 40px; border-radius: 50%;">
+                                        <span class="align-middle text-white material-symbols-outlined">
+                                            shopping_cart
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filter-card pasta">
+                        <div class="card text-bg-dark rounded-4 border-0 menu-card">
+                            <div class="w-100 bg-body-secondary py-5 rounded-top-3 rounded-bottom-5 h-100"
+                                style="border-bottom-right-radius: 0px!important;">
+                                <img src="assets/image/feane/f4.png" class="img-fluid col-5 d-block mx-auto h-100"
+                                    alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">delicious pasta</h5>
+                                <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                    velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>$20</span>
+                                    <button
+                                        class="btn btn-carousel rounded-circle  fw-bold d-flex justify-content-center align-items-center"
+                                        style="width: 40px; height: 40px; border-radius: 50%;">
+                                        <span class="align-middle text-white material-symbols-outlined">
+                                            shopping_cart
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filter-card fries">
+                        <div class="card text-bg-dark rounded-4 border-0 menu-card">
+                            <div class="w-100 bg-body-secondary py-5 rounded-top-3 rounded-bottom-5 h-100"
+                                style="border-bottom-right-radius: 0px!important;">
+                                <img src="assets/image/feane/f5.png" class="img-fluid col-5 d-block mx-auto h-100"
+                                    alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">french fries</h5>
+                                <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                    velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>$20</span>
+                                    <button
+                                        class="btn btn-carousel rounded-circle  fw-bold d-flex justify-content-center align-items-center"
+                                        style="width: 40px; height: 40px; border-radius: 50%;">
+                                        <span class="align-middle text-white material-symbols-outlined">
+                                            shopping_cart
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filter-card pizza">
+                        <div class="card text-bg-dark rounded-4 border-0 menu-card">
+                            <div class="w-100 bg-body-secondary py-5 rounded-top-3 rounded-bottom-5 h-100"
+                                style="border-bottom-right-radius: 0px!important;">
+                                <img src="assets/image/feane/f6.png" class="img-fluid col-5 d-block mx-auto h-100"
+                                    alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">delicious pizza</h5>
+                                <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                    velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>$20</span>
+                                    <button
+                                        class="btn btn-carousel rounded-circle  fw-bold d-flex justify-content-center align-items-center"
+                                        style="width: 40px; height: 40px; border-radius: 50%;">
+                                        <span class="align-middle text-white material-symbols-outlined">
+                                            shopping_cart
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filter-card burger">
+                        <div class="card text-bg-dark rounded-4 border-0 menu-card">
+                            <div class="w-100 bg-body-secondary py-5 rounded-top-3 rounded-bottom-5 h-100"
+                                style="border-bottom-right-radius: 0px!important;">
+                                <img src="assets/image/feane/f7.png" class="img-fluid col-5 d-block mx-auto h-100"
+                                    alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">tasty burger</h5>
+                                <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                    velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>$20</span>
+                                    <button
+                                        class="btn btn-carousel rounded-circle  fw-bold d-flex justify-content-center align-items-center"
+                                        style="width: 40px; height: 40px; border-radius: 50%;">
+                                        <span class="align-middle text-white material-symbols-outlined">
+                                            shopping_cart
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filter-card burger">
+                        <div class="card text-bg-dark rounded-4 border-0 menu-card">
+                            <div class="w-100 bg-body-secondary py-5 rounded-top-3 rounded-bottom-5 h-100"
+                                style="border-bottom-right-radius: 0px!important;">
+                                <img src="assets/image/feane/f8.png" class="img-fluid col-5 d-block mx-auto h-100"
+                                    alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">tasty burger</h5>
+                                <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                    velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>$20</span>
+                                    <button
+                                        class="btn btn-carousel rounded-circle  fw-bold d-flex justify-content-center align-items-center"
+                                        style="width: 40px; height: 40px; border-radius: 50%;">
+                                        <span class="align-middle text-white material-symbols-outlined">
+                                            shopping_cart
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filter-card pasta">
+                        <div class="card text-bg-dark rounded-4 border-0 menu-card">
+                            <div class="w-100 bg-body-secondary py-5 rounded-top-3 rounded-bottom-5 h-100"
+                                style="border-bottom-right-radius: 0px!important;">
+                                <img src="assets/image/feane/f9.png" class="img-fluid col-5 d-block mx-auto h-100"
+                                    alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">delicious pasta</h5>
+                                <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                                    velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>$20</span>
+                                    <button
+                                        class="btn btn-carousel rounded-circle  fw-bold d-flex justify-content-center align-items-center"
+                                        style="width: 40px; height: 40px; border-radius: 50%;">
+                                        <span class="align-middle text-white material-symbols-outlined">
+                                            shopping_cart
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn d-block mx-auto btn-carousel rounded-pill px-5 py-2 fw-bold">View More</button>
+            </div>
+        </section>
+        <section class="about-feane text-bg-dark my-3 mt-5 py-5">
+            <div class="container">
+                <div class="d-flex flex-column flex-md-row align-items-center gap-5">
+                    <div class="about-feane-img">
+                        <img src="assets/image/feane/about-img.png" alt="about-feane">
+                    </div>
+                    <div class="about-text">
+                        <h1 class="carousel-title text-white" style="font-size: 40px;">We Are Feane</h1>
+                        <p class="carousel-text text-white fw-bold">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or randomised words which don't look
+                            even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
+                            sure there isn't anything embarrassing hidden in the middle of text. All
+                        </p>
+                        <button class="btn btn-carousel rounded-pill px-5 py-2 fw-bold mt-3">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form-register py-5">
+            <div class="container">
+                <div class="row g-3 align-items-center">
+                    <div class="col-md-6 order-last order-md-first">
+                        <h3 class="register-title fs-1 pt-4 pb-2">Book A Table</h3>
+                        <input type="text" id="inputName" class="form-control form-control-lg"
+                            aria-labelledby="nameHelpBlock" placeholder="Your Name" required>
+                        <div id="passwordHelpBlock" class="form-text">
+                            Your password must be 8-20 characters long.
+                        </div>
+                        <div class="mt-4"><input type="tel" id="inputTel" class="form-control form-control-lg"
+                                placeholder="Phone Number" aria-labelledby="passwordHelpBlock"></div>
+                        <div class="mt-4"><input type="email" class="form-control form-control-lg"
+                                id="exampleFormControlInput1" placeholder="Your Email"></div>
+                        <select class="form-select form-select-lg mt-4" aria-label=".form-select-lg example">
+                            <option selected>How many persons?</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="3">4</option>
+                            <option value="3">5</option>
+                        </select>
+                        <div class="mt-4">
+                            <input class="form-control form-control-lg" id="formDateLg" type="date">
+                        </div>
+                        <button class="btn mt-5 btn-carousel rounded-pill px-5 py-2 fw-bold">Book Now</button>
+                    </div>
+                    <div class="col-md-6 order-first order-md-last">
+                        <iframe class="object-fit-cover w-100 border border-light rounded-3" height="350"
+                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6480.807055394841!2d51.2430057!3d35.6916863!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfa!2s!4v1671980159908!5m2!1sfa!2s"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+        </section>
+        <section class="customer-feane">
+            <div class="container">
+                <h2 class="customer-title text-center fs-1 py-5">What Says Our Customers</h2>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Mike Hamel</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block col-md-6">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Moana Michell</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex py-4 justify-content-between align-items-center">
+                                <div class="img"><img src="assets/image/feane/client2.jpg" class="w-100 h-100"
+                                        alt="..."></div>
+                                <div class="img d-none d-md-block"><img src="assets/image/feane/client1.jpg"
+                                        class="w-100 h-100" alt="..."></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="d-none d-md-block col-md-6">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Mike Hamel</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Moana Michell</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex py-4 justify-content-between align-items-center">
+                                <div class="img d-none d-md-block"><img src="assets/image/feane/client2.jpg"
+                                        class="w-100 h-100" alt="..."></div>
+                                <div class="img"><img src="assets/image/feane/client1.jpg" class="w-100 h-100"
+                                        alt="..."></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Mike Hamel</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-none d-md-block">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Moana Michell</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex py-4 justify-content-between align-items-center">
+                                <div class="img"><img src="assets/image/feane/client2.jpg" class="w-100 h-100"
+                                        alt="..."></div>
+                                <div class="img d-none d-md-block"><img src="assets/image/feane/client1.jpg"
+                                        class="w-100 h-100" alt="..."></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6 d-none d-md-block">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Mike Hamel</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Moana Michell</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex py-4 justify-content-between align-items-center">
+                                <div class="img d-none d-md-block"><img src="assets/image/feane/client2.jpg"
+                                        class="w-100 h-100" alt="..."></div>
+                                <div class="img"><img src="assets/image/feane/client1.jpg" class="w-100 h-100"
+                                        alt="..."></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Mike Hamel</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-none d-md-block">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Moana Michell</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex py-4 justify-content-between align-items-center">
+                                <div class="img"><img src="assets/image/feane/client2.jpg" class="w-100 h-100"
+                                        alt="..."></div>
+                                <div class="img d-none d-md-block"><img src="assets/image/feane/client1.jpg"
+                                        class="w-100 h-100" alt="..."></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6 d-none d-md-block">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Mike Hamel</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card border-0">
+                                        <div class="card-body text-bg-dark rounded-3 border-0">
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam
+                                            </p>
+                                            <h5 class="card-title">Moana Michell</h5>
+                                            <h6 class="card-subtitle mb-2">magna aliqua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex py-4 justify-content-between align-items-center">
+                                <div class="img d-none d-md-block"><img src="assets/image/feane/client2.jpg"
+                                        class="w-100 h-100" alt="..."></div>
+                                <div class="img"><img src="assets/image/feane/client1.jpg" class="w-100 h-100"
+                                        alt="..."></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer text-bg-dark p-5 mt-5">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <ul class="ul1 list-unstyled mb-5">
+                    <li><a class="text-decoration-none text-white text-center d-block pb-2">Contact Us</a></li>
+                    <li style="text-indent: 25px;"><a class="text-decoration-none text-white" href="#"><span class="material-symbols-outlined">
+                                location_on
+                            </span> Location</a></li>
+                    <li><a class="text-decoration-none text-white text-nowrap mt-2 d-block" href="#"><span class="material-symbols-outlined">
+                                call
+                            </span> Call +01 1234567890</a></li>
+                    <li><a class="text-decoration-none text-white pt-2 d-block" href="#"><span class="material-symbols-outlined align-middle">
+                                mail
+                            </span> demo@gmail.com</a></li>
+                </ul>
+                <ul class="ul2 list-unstyled d-flex flex-column align-items-center">
+                    <li><a class="text-decoration-none text-white" href="#">Feane</a></li>
+                    <li>
+                        <p class="mt-3 text-white text-center col-12 col-md-6 mx-auto">Necessary, making this the first true generator on the Internet. It uses a
+                            dictionary of over 200 Latin words, combined with
+                    </p>
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </li>
+                </ul>
+                <ul class="ul3 list-unstyled" style="margin-bottom: 50px;">
+                    <li><a class="text-decoration-none text-white text-nowrap">Opening Hours</a></li>
+                    <li><a class="text-decoration-none text-white text-center d-block py-3 pt-4">Everyday</a></li>
+                    <li><a class="text-decoration-none text-white text-nowrap d-block text-center py-2">10.00 Am -10.00 Pm</a></li>
+                </ul>
+            </div>
+            <div class="text-foot-footer pt-3">
+                <p class="text-1 text-center">© 2023 All Rights Reserved By Free Html Templates</p>
+                <p class="text-2 text-center">© Distributed By ThemeWagon</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

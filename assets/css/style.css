@@ -1,0 +1,315 @@
+:root {
+  --specialfont: "Dancing Script", cursive;
+  --specialcolor: #ffbe33;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+}
+
+/* header part */
+
+.header {
+  background-image: url("../image/feane/hero-bg.jpg");
+  width: 100%;
+  height: 140vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-family: var(--specialfont);
+  font-size: 30px;
+  color: #fff;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.header .nav-link {
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #ffbe33 !important;
+}
+
+.nav-link.active {
+  color: orange !important;
+}
+
+.order-btn {
+  background-color: var(--specialcolor);
+  color: #fff;
+  transition: all 0.2s;
+  font-family: "Open Sans", sans-serif;
+}
+
+.order-btn:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+.header .top-menu .d-flex span {
+  transition: all 0.4s;
+}
+.header .top-menu .d-flex span:hover {
+  color: #ffbe33 !important;
+}
+
+.header .text-slide {
+  margin-top: 80px;
+}
+
+.header .carousel-title {
+  font-family: var(--specialfont);
+  font-size: 55px;
+}
+
+.btn-carousel {
+  background-color: var(--specialcolor);
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.btn-carousel:hover {
+  color: #fff;
+  background-color: orange;
+}
+
+.header .text-slide .carousel-indicators {
+  margin-left: 0%;
+  right: 65%;
+  top: 115%;
+}
+
+.header .carousel-indicators button {
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #fff;
+}
+
+.header .carousel-indicators button.active {
+  height: 20px !important;
+  width: 20px !important;
+  background-color: var(--specialcolor);
+}
+
+/* main part */
+
+.main .flex-card {
+  font-family: var(--specialfont);
+}
+
+.flex-card img {
+  transition: all 0.3s;
+}
+
+.flex-card .wrapper-img {
+  border: 5px solid var(--specialcolor);
+  border-radius: 50%;
+}
+
+.flex-card .wrapper-img:hover img {
+  transform: scale(1.2);
+}
+
+.feane-menu-title {
+  font-family: var(--specialfont);
+}
+
+.feane-menu .nav-pills .active {
+  border-radius: 20px;
+}
+
+.main .feane-menu .nav-link.active {
+  border-radius: 20px;
+  padding: 5px 20px;
+  display: block;
+  color: #fff !important;
+  background-color: #222831;
+}
+
+.main .feane-menu .menu-card .card-title {
+  text-transform: capitalize;
+}
+
+.main .feane-menu .menu-card img {
+  transition: all 0.3s;
+  height: 100px !important;
+  width: 200px;
+}
+.main .feane-menu .menu-card img:hover {
+  transform: scale(1.2);
+}
+
+.main .about-feane img {
+  width: 100%;
+  height: 100%;
+}
+
+.main .about-feane .carousel-title {
+  font-family: var(--specialfont);
+}
+
+.main .form-register .register-title {
+  font-family: var(--specialfont);
+}
+
+.main .form-register input,
+select {
+  border-color: #000 !important;
+}
+.main .form-register input::placeholder {
+  color: #000;
+}
+
+.main .form-register .form-text {
+  display: none;
+}
+
+iframe {
+  filter: brightness(50%);
+}
+
+.main .customer-feane .customer-title {
+  font-family: var(--specialfont);
+}
+
+.main .customer-feane .carousel .img {
+  width: 120px!important;
+  height: 120px;
+  border: 5px solid var(--specialcolor);
+  border-radius: 50%;
+  position: relative;
+}
+
+.main .customer-feane .img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.main .customer-feane .carousel .carousel-item .img:last-child {
+  margin-right: 420px;
+}
+
+.main .customer-feane .carousel .img::after {
+  content: "";
+  position: absolute;
+  top: -23px;
+  left: 40%;
+  border-width: 10px;
+  border-style: solid;
+  border-color:transparent transparent var(--specialcolor) transparent;
+}
+
+.main .customer-feane button{
+  background-color: var(--specialcolor);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 345px;
+  opacity: 1;
+}
+
+.main .customer-feane button>span{
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.main .customer-feane .carousel-control-prev{
+  left: 46%!important;
+}
+.main .customer-feane .carousel-control-next{
+  right: 46%!important
+}
+
+.footer .ul1>li:first-child>a , .ul2>li:first-child>a , .ul3>li:first-child>a{
+  font-family: var(--specialfont);
+  font-size: 30px;
+}
+
+.footer .ul2 .d-flex a{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+.footer .ul2 .d-flex a:hover .fa-brands{
+  color: #ffbe33;
+}
+
+.footer .ul1 li:not(li:first-child) a{
+  transition: all 0.3s;
+}
+.footer .ul1 li:not(li:first-child) a:hover{
+  color: #ffbe33!important;
+}
+
+.footer .ul2 .d-flex .fa-brands{
+  color: #000;
+}
+/* Responsive Part */
+
+@media screen and (max-width: 576px) {
+  .flex-card .wrapper-img {
+    margin: auto;
+    width: 170px;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .header {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .main .customer-feane .carousel .carousel-item .img:last-child {
+    width: 120px;
+    height: 120px;
+    border: 5px solid var(--specialcolor);
+    border-radius: 50%;
+    position: relative;
+    margin-right:0px;
+  }
+
+  .main .customer-feane img{
+    width: 100%!important;
+    height: 100%!important;
+    border-radius: 50%;
+  }
+
+  .main .customer-feane .carousel-control-prev{
+    left: 40%!important;
+  }
+  .main .customer-feane .carousel-control-next{
+    right: 40%!important
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header .text-slide .carousel-indicators {
+    right: 77%;
+  }
+
+  .main .feane-menu .menu-card img {
+    width: 200px !important;
+    height: 140px !important;
+  }
+
+  .main .about-feane img {
+    width: 445px;
+  }
+}
